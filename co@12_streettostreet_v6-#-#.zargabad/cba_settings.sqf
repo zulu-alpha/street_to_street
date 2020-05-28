@@ -408,7 +408,6 @@ zam_showNames_toggle = false;
 force ZAM_showNames_voice = true;
 
 // VCOM SETTINGS
-<<<<<<< HEAD
 //force VCM_ActivateAI = true;
 //force VCM_ADVANCEDMOVEMENT = true;
 //force VCM_AIDISTANCEVEHPATH = 100;
@@ -438,37 +437,6 @@ force VCM_STATICARMT = 300;
 //force VCM_USECBASETTINGS = true;
 //force VCM_WARNDELAY = 30;
 //force VCM_WARNDIST = 1000;
-=======
-force VCM_ActivateAI = true;
-force VCM_ADVANCEDMOVEMENT = true;
-force VCM_AIDISTANCEVEHPATH = 100;
-force VCM_AIMagLimit = 5;
-force VCM_AISNIPERS = true;
-force VCM_AISUPPRESS = true;
-force VCM_ARTYDELAY = 180;
-force VCM_ARTYENABLE = true;
-//force VCM_ARTYSIDES = [WEST,EAST,GUER];  Array of side objects creates CBA error.
-force VCM_CARGOCHNG = true;
-force VCM_ClassSteal = true;
-force VCM_Debug = false;
-force VCM_DISEMBARKRANGE = 200;
-force Vcm_DrivingActivated = false;
-force VCM_ForceSpeed = true;
-force VCM_FRMCHANGE = true;
-force VCM_HEARINGDISTANCE = 1200;
-force VCM_MINECHANCE = 75;
-force Vcm_PlayerAISkills = true;
-force VCM_RAGDOLL = true;
-force VCM_RAGDOLLCHC = 50;
-//force VCM_SIDEENABLED = [WEST,EAST,GUER];  Array of side objects creates CBA error.
-force VCM_SKILLCHANGE = true;
-force VCM_STATICARMT = 300;
-force VCM_StealVeh = false;
-force VCM_TURRETUNLOAD = true;
-force VCM_USECBASETTINGS = true;
-force VCM_WARNDELAY = 30;
-force VCM_WARNDIST = 1000;
->>>>>>> 372869a715feb1243e063717436b75b5a3c82ea2
 
 // LAMBS Danger
 force lambs_danger_CQB_formations_COLUMN = false;
@@ -498,11 +466,7 @@ force lambs_danger_disableAIPlayerGroupReaction = false;
 force lambs_danger_disableAIPlayerGroupSuppression = false;
 force lambs_danger_disableAutonomousFlares = false;
 force lambs_danger_disableAutonomousSmokeGrenades = false;
-<<<<<<< HEAD
 force lambs_danger_maxRevealValue = 2;
-=======
-force lambs_danger_maxRevealValue = 1;
->>>>>>> 372869a715feb1243e063717436b75b5a3c82ea2
 force lambs_danger_minFriendlySuppressionDistance = 10;
 force lambs_danger_minSuppression_range = 20;
 force lambs_danger_panic_chance = 15;
