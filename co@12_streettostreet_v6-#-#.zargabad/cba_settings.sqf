@@ -146,7 +146,7 @@ ace_maptools_rotateModifierKey = 1;
 // ACE Medical
 force ace_medical_ai_enabledFor = 2;
 force ace_medical_AIDamageThreshold = 1;
-force ace_medical_bleedingCoefficient = 0.75;
+force ace_medical_bleedingCoefficient = 0.8;
 force ace_medical_blood_bloodLifetime = 900;
 force ace_medical_blood_enabledFor = 2;
 force ace_medical_blood_maxBloodObjects = 500;
@@ -160,7 +160,7 @@ ace_medical_gui_enableMedicalMenu = 1;
 ace_medical_gui_enableSelfActions = true;
 force ace_medical_gui_maxDistance = 3;
 ace_medical_gui_openAfterTreatment = true;
-force ace_medical_ivFlowRate = 1;
+force ace_medical_ivFlowRate = 0.9;
 force ace_medical_limping = 1;
 force ace_medical_painCoefficient = 1;
 force ace_medical_playerDamageThreshold = 1;
@@ -393,51 +393,6 @@ force cba_disposable_replaceDisposableLauncher = true;
 // CUP
 CUP_Vehicles_PreventBarrelClip = true;
 
-// ZAM ShowNames
-zam_showNames_enabled = true;
-force ZAM_showNames_fade = true;
-force ZAM_showNames_fog = true;
-ZAM_showNames_group = true;
-ZAM_showNames_group_names = true;
-ZAM_showNames_group_teams = true;
-ZAM_showNames_knowledge = true;
-force ZAM_showNames_magn = true;
-ZAM_showNames_ranks = false;
-ZAM_showNames_rucks = true;
-zam_showNames_toggle = false;
-force ZAM_showNames_voice = true;
-
-// VCOM SETTINGS
-//force VCM_ActivateAI = true;
-//force VCM_ADVANCEDMOVEMENT = true;
-//force VCM_AIDISTANCEVEHPATH = 100;
-//force VCM_AIMagLimit = 5;
-//force VCM_AISNIPERS = true;
-//force VCM_AISUPPRESS = true;
-//force VCM_ARTYDELAY = 180;
-//force VCM_ARTYENABLE = true;
-//force VCM_ARTYSIDES = [WEST,EAST,GUER];  Array of side objects creates CBA error.
-//force VCM_CARGOCHNG = true;
-//force VCM_ClassSteal = true;
-//force VCM_Debug = false;
-//force VCM_DISEMBARKRANGE = 200;
-//force Vcm_DrivingActivated = false;
-//force VCM_ForceSpeed = true;
-//force VCM_FRMCHANGE = true;
-//force VCM_HEARINGDISTANCE = 1200;
-//force VCM_MINECHANCE = 75;
-//force Vcm_PlayerAISkills = true;
-force VCM_RAGDOLL = true;
-force VCM_RAGDOLLCHC = 50;
-//force VCM_SIDEENABLED = [WEST,EAST,GUER];  Array of side objects creates CBA error.
-//force VCM_SKILLCHANGE = true;
-force VCM_STATICARMT = 300;
-//force VCM_StealVeh = false;
-//force VCM_TURRETUNLOAD = true;
-//force VCM_USECBASETTINGS = true;
-//force VCM_WARNDELAY = 30;
-//force VCM_WARNDIST = 1000;
-
 // LAMBS Danger
 force lambs_danger_CQB_formations_COLUMN = false;
 force lambs_danger_CQB_formations_DIAMOND = false;
@@ -466,7 +421,7 @@ force lambs_danger_disableAIPlayerGroupReaction = false;
 force lambs_danger_disableAIPlayerGroupSuppression = false;
 force lambs_danger_disableAutonomousFlares = false;
 force lambs_danger_disableAutonomousSmokeGrenades = false;
-force lambs_danger_maxRevealValue = 2;
+force lambs_danger_maxRevealValue = 1.4;
 force lambs_danger_minFriendlySuppressionDistance = 10;
 force lambs_danger_minSuppression_range = 20;
 force lambs_danger_panic_chance = 15;
@@ -484,3 +439,39 @@ force lambs_eventhandlers_ExplosionReactionTime = 9;
 
 // LAMBS Danger WP
 force lambs_wp_autoAddArtillery = false;
+
+// GRAD Trenches
+force grad_trenches_functions_allowBigEnvelope = true;
+force grad_trenches_functions_allowCamouflage = true;
+force grad_trenches_functions_allowDigging = true;
+force grad_trenches_functions_allowGiantEnvelope = true;
+force grad_trenches_functions_allowLongEnvelope = true;
+force grad_trenches_functions_allowShortEnvelope = true;
+force grad_trenches_functions_allowSmallEnvelope = true;
+force grad_trenches_functions_allowVehicleEnvelope = true;
+force grad_trenches_functions_bigEnvelopeDigTime = 40;
+force grad_trenches_functions_buildFatigueFactor = 1;
+force grad_trenches_functions_camouflageRequireEntrenchmentTool = true;
+force grad_trenches_functions_giantEnvelopeDigTime = 90;
+force grad_trenches_functions_LongEnvelopeDigTime = 100;
+force grad_trenches_functions_shortEnvelopeDigTime = 20;
+force grad_trenches_functions_smallEnvelopeDigTime = 30;
+force grad_trenches_functions_stopBuildingAtFatigueMax = true;
+force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
+
+// ZAM ShowNames
+zam_showNames_enabled = true;
+force ZAM_showNames_fade = true;
+force ZAM_showNames_fog = true;
+ZAM_showNames_group = true;
+ZAM_showNames_group_names = true;
+ZAM_showNames_group_teams = true;
+ZAM_showNames_knowledge = true;
+force ZAM_showNames_magn = true;
+ZAM_showNames_ranks = false;
+ZAM_showNames_rucks = true;
+zam_showNames_toggle = false;
+force ZAM_showNames_voice = true;
+
+// CFP
+cfp_autoEquipNVG = false;
